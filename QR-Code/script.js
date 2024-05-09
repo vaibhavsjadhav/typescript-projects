@@ -1,10 +1,9 @@
-// npx tsc QR-Code/script.ts
-var qrinput = document.getElementById("qr-input");
-var qrimg = document.getElementById("qr-img");
-var qrbutton = document.getElementById("qr-button");
+const qrinput = document.getElementById("qr-input");
+const qrimg = document.getElementById("qr-img");
+const qrbutton = document.getElementById("qr-button");
 console.log(qrinput, qrimg, qrbutton);
 qrbutton.addEventListener("click", function () {
-    var inputValue = qrinput.value;
+    const inputValue = qrinput.value;
     console.log(inputValue);
     if (!inputValue) {
         alert("Please enter a valid URL");
