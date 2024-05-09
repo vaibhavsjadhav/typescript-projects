@@ -1,4 +1,3 @@
-// npx tsc QR-Code/script.ts
 const qrinput = document.getElementById("qr-input") as HTMLInputElement;
 const qrimg = document.getElementById("qr-img") as HTMLImageElement;
 const qrbutton = document.getElementById("qr-button") as HTMLButtonElement;
